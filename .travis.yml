@@ -1,0 +1,19 @@
+dist: bionic
+
+language: go
+
+go_import_path: github.com/TesraSupernet/Tesra
+
+os:
+  - linux
+
+go:
+  - 1.12.x
+
+script:
+  - env GO111MODULE=on make all-cross
+  - env GO111MODULE=on go mod vendor
+  - cd ./wasmtest && bash ./run-wasm-tests.sh && cd ../
+  - bash ./.travis.check-license.sh
+  - bash ./.travis.gofmt.sh
+  - bash ./.travis.gotest.sh

@@ -1,0 +1,47 @@
+package: github.com/TesraSupernet/Tesra
+import:
+- package: github.com/TesraSupernet/tesraevent
+  version: v0.0.1
+- package: github.com/TesraSupernet/tesracrypto
+  version: v0.0.1
+- package: github.com/howeyc/gopass
+- package: github.com/gorilla/websocket
+  version: v1.2.0
+- package: github.com/itchyny/base58-go
+- package: github.com/pborman/uuid
+  version: v1.1
+- package: github.com/syndtr/goleveldb
+  subpackages:
+  - leveldb
+  - leveldb/errors
+  - leveldb/filter
+  - leveldb/iterator
+  - leveldb/opt
+  - leveldb/util
+- package: github.com/urfave/cli
+  version: v1.20.0
+- package: golang.org/x/text
+  repo: https://github.com/golang/text.git
+- package: golang.org/x/crypto
+  repo: https://github.com/golang/crypto.git
+  version: 57b3e21c3d5606066a87e63cfe07ec6b9f0db000
+- package: github.com/hashicorp/golang-lru
+- package: github.com/ethereum/go-ethereum
+  version: v1.8.23
+  subpackages:
+  - common/fdlimit
+- package: github.com/gosuri/uiprogress
+- package: github.com/gosuri/uilive
+  version: v0.0.1
+- package: golang.org/x/sys
+  repo: https://github.com/golang/sys.git
+  version: 5c00192e8ce6429d705e1e4d83b4b22e79482964
+  subpackages:
+  - unix
+- package: golang.org/x/net
+  repo: https://github.com/golang/net.git
+- package: github.com/go-interpreter/wagon
+  repo: https://github.com/user00000001/wagon.git
+  version: 31cd91d9e5dbee60379c834b7dbe448afc3f9f39
+ignore:
+  - golang.org/x/sys/unix
