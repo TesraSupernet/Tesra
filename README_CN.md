@@ -249,6 +249,12 @@ BalanceOf:ARVVxBPGySL56CvSSWfjRVVyZYpNZ7zp48
 ### 网站
 
 - https://www.tesra.me/
+### 主链
+
+- https://github.com/TesraSupernet/Tesra
+### 计算链
+
+- https://github.com/TesraSupernet/Tesra-computing-chain
 
 ## 许可证
 

@@ -252,6 +252,18 @@ Contributors to Tesranode are very welcome! Before beginning, please take a look
 
 If you have any issues getting setup, open an issue or reach out in the [Tesranode Discord](https://discordapp.com/invite/4TQujHj).
 
+## Open Source Community
+
+### Homepage
+
+- https://www.tesra.me/
+### Main Chain
+
+- https://github.com/TesraSupernet/Tesra
+### Calculation Chain
+
+- https://github.com/TesraSupernet/Tesra-computing-chain
+
 ## License
 
 The Tesranode source code is available under the [LGPL-3.0](LICENSE) license.
