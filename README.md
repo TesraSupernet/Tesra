@@ -260,7 +260,7 @@ If you have any issues getting setup, open an issue or reach out in the [Tesrano
 ### Main Chain
 
 - https://github.com/TesraSupernet/Tesra
-### Calculation Chain
+### Computing Chain
 
 - https://github.com/TesraSupernet/Tesra-computing-chain
 
